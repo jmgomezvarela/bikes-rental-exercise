@@ -3,7 +3,7 @@
 Based on the SOLID principles and TDD the projects allow to calculate the total amount of different rents and also the combinations of that rents.
 
 
-### Technologies
+## Technologies
 
 * Java 1.8
 
@@ -32,7 +32,7 @@ method, the idea is a coverage ratio over the 85%.
 ```
 
 
-### Design
+## Design
 
 Using the SOLID principles and TDD, thinking in a posible future change that the model have to be stored in a database and also a chance of new user cases or changes in the bussiness scale, with the idea to minimize the impact of future changes, the rents class like HourRental, DayRental and WeekRental extends from Rental class and implements the IRentalSubtotal. The solution is a combination of three design patters.
 
