@@ -34,7 +34,11 @@ method, the idea is a coverage ratio over the 85%.
 
 ## Design
 
-Using the SOLID principles and TDD, thinking in a posible future change that the model have to be stored in a database and also a chance of new user cases or changes in the bussiness scale, with the idea to minimize the impact of future changes, the rents class like HourRental, DayRental and WeekRental extends from Rental class and implements the IRentalSubtotal. The solution is a combination of three design patters.
+Using the SOLID principles and TDD, thinking in a posible future change that the model have to be stored in a database and also a chance of new user cases or changes in the bussiness scale, with the idea to minimize the impact of future changes, the rents class like HourRental, DayRental and WeekRental extends from Rental class and implements the IRentalSubtotal. The model was thinking in the code reuse and a adaptive software Development. 
+
+## Developed practices
+
+The combination of 3 patterns had been used to development the app.
 
 * Factory 
 ```
