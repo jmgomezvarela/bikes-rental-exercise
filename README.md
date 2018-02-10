@@ -5,26 +5,26 @@ Based on the SOLID principles and TDD the projects allow to calculate the total 
 
 ### Technologies
 
-Java 1.8
+* Java 1.8
 
 ```
 Give me the chance to use Lambda expressions and the Stream API.
 ```
 
-LogBack 1.2.3
+* LogBack 1.2.3
 
 ```
 To add logging in the application, note: The logback.xml is configured just to write on the Java Console, 
 but it is simple to change to write to a file.
 ```
 
-JUnit 4.12
+* JUnit 4.12
 
 ```
 To Perform the unit tests.
 ```
 
-Jacoco 0.7.9
+* Jacoco 0.7.9
 
 ```
 Jacoco provides tools to messuge the code coverage and also create repots about the status of each Java
@@ -36,19 +36,19 @@ method, the idea is a coverage ratio over the 85%.
 
 Using the SOLID principles and TDD, thinking in a posible future change that the model have to be stored in a database and also a chance of new user cases or changes in the bussiness scale, with the idea to minimize the impact of future changes, the rents class like HourRental, DayRental and WeekRental extends from Rental class and implements the IRentalSubtotal. The solution is a combination of three design patters.
 
-Factory 
+* Factory 
 ```
 To provide differents intances of Hour, Day and Week Rental depending of the request from the client.
 ```
 
-Composite
+* Composite
 
 ```
 Because the Familiar rental is the composition of several other rentals, for example 1 FamiliarRental = 3 
 differents bikes for 3 hs each, 1 bike for a Week and 1 bike for 2 days. The common interface 
 ```
 
-Strategy
+* Strategy
 
 ```
 To apply the discount in case the context indicates the conditions goes to a discount. If tomorrow a 
@@ -63,6 +63,7 @@ responsibility principle and the open/closed principle are guaranteed.
 I used Maven, for this reason to run the test is a mandatory tool.
 
 ### Steps to run the tests:
+
 1. Clone or Download the repo
 2. Navigate to the root folder of the repo
 3. Using a terminal run the command **mvn clean test**
