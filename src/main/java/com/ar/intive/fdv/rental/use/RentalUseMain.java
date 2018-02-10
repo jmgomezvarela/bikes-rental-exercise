@@ -1,11 +1,11 @@
-package com.ar.intive.fdv.use;
+package com.ar.intive.fdv.rental.use;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.ar.composite.bikes.rentals.factory.RentType;
-import com.ar.composite.bikes.rentals.factory.RentalFactory;
-import com.ar.intive.fdv.rentals.Rental;
-import com.ar.intive.fdv.rentals.RentalComposite;
+import com.ar.intive.fdv.rental.factory.RentType;
+import com.ar.intive.fdv.rental.factory.RentalFactory;
+import com.ar.intive.fdv.rental.rents.Rental;
+import com.ar.intive.fdv.rental.rents.RentalComposite;
 
 public class RentalUseMain {
 	

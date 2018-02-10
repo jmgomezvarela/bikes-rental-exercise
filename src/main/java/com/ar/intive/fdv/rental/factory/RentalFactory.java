@@ -1,12 +1,12 @@
-package com.ar.composite.bikes.rentals.factory;
+package com.ar.intive.fdv.rental.factory;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.ar.intive.fdv.exceptions.RentalFactoryException;
-import com.ar.intive.fdv.rentals.DayRental;
-import com.ar.intive.fdv.rentals.HourRental;
-import com.ar.intive.fdv.rentals.Rental;
-import com.ar.intive.fdv.rentals.WeekRental;
+import com.ar.intive.fdv.rental.exceptions.RentalFactoryException;
+import com.ar.intive.fdv.rental.rents.DayRental;
+import com.ar.intive.fdv.rental.rents.HourRental;
+import com.ar.intive.fdv.rental.rents.Rental;
+import com.ar.intive.fdv.rental.rents.WeekRental;
 
 public final class RentalFactory {
 	private static Logger LOGGER = LoggerFactory.getLogger(RentalFactory.class);

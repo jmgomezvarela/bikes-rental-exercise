@@ -1,4 +1,4 @@
-package com.ar.intive.rental.test.unit;
+package com.ar.intive.fdv.rental.test;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Before;

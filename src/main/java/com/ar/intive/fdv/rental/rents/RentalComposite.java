@@ -1,14 +1,11 @@
-package com.ar.intive.fdv.rentals;
+package com.ar.intive.fdv.rental.rents;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import com.ar.composite.bikes.rentals.factory.RentalFactory;
 import com.ar.intive.fdv.rental.strategy.DiscountStrategy;
 import com.ar.intive.fdv.rental.strategy.DiscountStrategyContext;
 import com.ar.intive.fdv.rental.strategy.IDiscount;

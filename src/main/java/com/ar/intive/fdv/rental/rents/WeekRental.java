@@ -1,4 +1,4 @@
-package com.ar.intive.fdv.rentals;
+package com.ar.intive.fdv.rental.rents;
 
 public final class WeekRental extends Rental{
 	

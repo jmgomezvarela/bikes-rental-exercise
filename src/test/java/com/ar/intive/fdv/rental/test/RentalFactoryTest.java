@@ -1,12 +1,12 @@
-package com.ar.intive.rental.test.unit;
+package com.ar.intive.fdv.rental.test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
-import com.ar.composite.bikes.rentals.factory.RentType;
-import com.ar.composite.bikes.rentals.factory.RentalFactory;
-import com.ar.intive.fdv.rentals.*;
+import com.ar.intive.fdv.rental.factory.RentType;
+import com.ar.intive.fdv.rental.factory.RentalFactory;
+import com.ar.intive.fdv.rental.rents.*;
 
 public class RentalFactoryTest {
 

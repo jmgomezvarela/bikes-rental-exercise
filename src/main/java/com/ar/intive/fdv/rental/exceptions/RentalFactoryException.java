@@ -1,4 +1,4 @@
-package com.ar.intive.fdv.exceptions;
+package com.ar.intive.fdv.rental.exceptions;
 
 public class RentalFactoryException extends Exception{
   	private static final long serialVersionUID = 1L;
