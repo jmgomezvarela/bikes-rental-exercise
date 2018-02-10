@@ -1,6 +1,6 @@
 # Intive FDV Bikes Rental
 
-Based on the SOLID principles and TDD the projects allow to calculate the total amount of different rents and also the combinations of that rents.
+Based on the SOLID principles and TDD the project allows to calculate the total amount of different rents and also the combinations of that rents.
 
 
 ## Technologies
