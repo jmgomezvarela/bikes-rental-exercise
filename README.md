@@ -34,7 +34,7 @@ method, the idea is a coverage ratio over the 85%.
 
 ## Design
 
-The Challenge is to design a solution adaptable to future changes and reusable but in a simple design. Using the SOLID principles and TDD, thinking in a posible future change that the model have to be stored in a database and also a chance of new user cases or changes in the bussiness scale, with the idea to minimize the impact of future changes, the rents class like HourRental, DayRental and WeekRental extends from Rental class and implements the IRentalSubtotal. The model was thinking in the code reuse and a adaptive software Development. 
+The Challenge is to design a solution adaptable to future changes and reusable but in a simple design. Using the SOLID principles and TDD, thinking in a posible future change that the model have to be stored in a database and also a chance of new user cases or changes in the bussiness scale, with the idea to minimize the impact of future changes, the rents class like HourRental, DayRental and WeekRental extends from Rental class and implements the IRentalSubtotal. The model was thinking in the code reuse and a adaptive software development, programming agaist interfaces and with an logic hierarchy.
 
 ## Developed practices
 
