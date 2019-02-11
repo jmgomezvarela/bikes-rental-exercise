@@ -1,4 +1,4 @@
-# Bikes Rental exercise (CRUD & JUnit & Jacoco & Dessign patterns)
+# Bikes Rental exercise (SOLID & JUnit & Jacoco & Dessign patterns)
 
 Based on the SOLID principles and TDD the project allows to calculate the total amount of different rents and also the combinations of different kinds of rents.
 
